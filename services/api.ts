@@ -63,3 +63,4 @@ export const api = {
   delete: <T>(url: string, config?: AxiosRequestConfig) =>
     axiosInstance.delete<T>(url, config).then((response) => response.data),
 };
+ 
